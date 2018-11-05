@@ -1,0 +1,221 @@
+*{
+    font-family:arial;
+    padding:0px;
+    margin:0px;
+}input[type=button], input[type=submit]{
+    cursor:pointer;
+    background-color:#F3AC4C;
+    border:2px solid #F3AC4C;
+    border-radius:2px;
+}a{
+    text-decoration:none;
+}main{
+    margin-top:10px;
+    margin-bottom:10px;
+    
+    margin-left:auto;
+    margin-right:auto;
+    
+    width:95%;
+    max-width:1600px;
+}a{
+    color:#222;
+}
+
+#top{
+    min-height:100px;
+    background-color:#9B1626;
+    position:relative;
+}#login_form, #logout_form{
+    float:right;
+    margin:3px;
+}#login_error{
+    color:red;
+}nav label{
+    display:inline-block;
+    width:100px;
+    text-align:right;
+    color:white;
+}nav input{
+    width:150px;
+}nav label, nav input{
+    height:25px;
+}.input{
+    display:inline-block;
+}.error{
+    color:red;
+    float:right;
+    display:none;
+}.hidden_error{
+    color:red;
+    float:right;
+    display:none;
+}#login_button, #logout_button, #register_popup_button, #create_thread_button{
+    width:75px;
+}
+
+#user_display{
+    height:100%;
+}#user_display img{
+    height:50px;
+}#session_username a{
+    font-size:20px;
+    color:white;
+}
+
+#register_popup{
+    position:absolute;
+    top:0px;
+    width:100%;
+    height:100%;
+    z-index:1;
+    display:none;
+}#register_form{
+    background-color:white;
+    color:black;
+    
+    position:absolute;
+    right:0px;
+    top:40px;
+    
+    padding:3px;
+    margin-right:5px;
+    
+    border:2px solid #CCC;
+    border-radius:2px;
+}#register_form input{
+    margin:5px 0px 5px 0px;
+}#arrow{
+    position:absolute;
+    right:28px;
+    top:-10px;
+}#register_form .input{
+    display:block;
+}#register_form label{
+    color:black;
+    width:150px;
+}
+
+#links{
+    position:absolute;
+    bottom:0px;
+    margin:3px;
+}#links li{
+    display:inline-block;
+}#links a{
+    color:#DDD;
+    font-size:20px;
+    display:block;
+    width:75px;
+}
+
+#thread_search_form{
+    float:right;
+}#thread_search_form_header{
+    margin-left:70px;
+    text-align:center;
+}#thread_search_form label{
+    display:inline-block;
+    height:25px;
+    width:80px;
+    text-align:right;
+}#thread_search_form input{
+    width:150px;
+    height:25px;
+    margin:5px 0px 5px 0px;
+}#thread_search_error{
+    margin-left:180px;
+    font-size:20px;
+}
+
+#threads{
+    
+}.thread, .comment{
+    margin:25px 0px 25px 0px;
+    min-height:180px;
+}.poster{
+    position:absolute;
+    width:150px;
+    display:inline-block;
+}.post_creator{
+    display:block;
+    width:100%;
+    text-align:center;
+}.post_avatar{
+    width:150px;
+}.post_content{
+    display:block;
+    margin-left:180px;
+    margin-right:5px;
+}.date{
+    color:#555;
+    margin-bottom:10px;
+}.thread .post_text{
+    font-size:20px;
+    display:block;
+    min-height:90px;
+}.tags li{
+    background-color:#F3AC4C;
+    border:2px solid #F3AC4C;
+    border-radius:2px;
+    padding:0px 5px 0px 5px;
+    display:inline-block;
+}.likes{
+    margin-top:5px;
+}.like_button{
+    border:0px;
+    cursor:pointer;
+}.like_button img{
+    height:20px;
+    width:20px;
+}
+
+#create_thread, #create_comment{
+    margin-left:180px;
+    width:400px;
+}#create_thread_form .input{
+    width:45%;
+    margin-right:4%;
+}#create_thread_form input, select{
+    width:100%;
+}#ctf_title_error, #ctf_content_error{
+    color:red;
+}#ctf_tags{
+    width:100%;
+}#create_thread_button, #create_comment_button{
+    width:75px;
+}#create_thread_button{
+    float:right;
+}#ctf_not_logged_in{
+    color:#555;
+    font-size:20px;
+}
+
+#thread_header{
+   margin-bottom:50px;
+}#thread_avatar{
+    position:absolute;
+    width:75px;
+}#thread_header_text{
+    margin-left:90px;
+}#no_comments{
+    margin-left:150px;
+    font-size:20px;
+    color:#555;
+}
+
+#profile_avatar{
+    width:150px;
+    height:150px;
+}#profile_username{
+    font-size:30px;
+}#upload_avatar_error{
+    color:red;
+}
+
+footer{
+    clear:both;
+    background-color:#9B1626;
+    height:20px;
+    width:100%;
+}
